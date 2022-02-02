@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+}
+.wrapper{
+    height: 100vh;
+    position: relative;
+
+    
+}
+.wrapper .box{
+    position: absolute;
+    background-color: #E5E5E5;
+    padding: 30px;
+    top: 20%;
+    left: 20%;
+}
+.wrapper .box h2{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.form-control{
+    width: 150px;
+    float: left;
+    font-weight: 700;
+    color: #BEBEBC;
+}
+.wrapper .box .middle{
+    width: 100px;
+    margin-left: 15px;
+}
+.wrapper .box .last{
+    width: 100px;
+    margin-left: 15px;
+}
+.wrapper .box .right-side{
+    float: right;
+}
+.wrapper .box .right-side .btn-area .l-btn{
+    float: left;
+}
+.wrapper .box .right-side .btn-area .l-btn a{
+    display: inline-block;
+    text-decoration: none;
+    color: #D5F3CE;
+    background-color: #66C66F;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.wrapper .box .right-side .btn-area .r-btn{
+    float: left;
+    margin-left: 15px;
+    
+}
+.wrapper .box .right-side .btn-area .r-btn select{
+    width: 100px;
+    background-color: #555555;
+    color: #D5F3CE;
+}
+.wrapper .box table{
+    width: 100%;
+    margin-top: 20px;
+}
+.wrapper .box table td,th{
+    padding: 10px 10px;
+}
+.wrapper .box table thead{
+    background: none;
+}
+.wrapper .box table th{
+    font-size: 15px;
+    color: #7E7D83;
+    font-weight: 700;
+}
+.wrapper .box table td{
+    color: #BEBEBC;
+    font-weight: 600;
+}
+.wrapper .box .mail{
+    color: #6780c0;
+}
+.wrapper .box .proc{
+    color: #55BA84;
+}
+.wrapper .box table td .icon{
+    float: right;
+}
+.wrapper .box table td i{
+    padding: 10px;
+    background-color: #BEBEBC;
+    color: #7E7D83;
+    border-radius: 50%;
+    margin-left: 3px;
+    transition: 0.4s ease;
+    
+}
+.wrapper .box table td i:hover{
+    color: #fff;
+}
+.wrapper .box table tbody tr{
+    background: #fff;
+    border-bottom: 5px solid #E5E5E5;
+}
